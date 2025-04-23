@@ -4,6 +4,8 @@ from uuid import uuid4
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
+from . import constants
+
 logger = logging.getLogger(__name__)
 
 class CustomUserModel(AbstractUser):
@@ -15,6 +17,7 @@ class CustomUserModel(AbstractUser):
     last_name = models.CharField(max_length=150, null=False, blank=False)
     country = models.CharField(null=True, blank=False)
     birth_date = models.DateField(null=False, blank=False)
+    role = models.CharField(choices=constants.ROLE_CHOICES, default=constants.ROLE_CHOICES[0][0])
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

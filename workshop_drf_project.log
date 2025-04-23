@@ -17834,3 +17834,275 @@ Bad Request: /api/custom_user/
 "GET /api/playlist/?profile=6e9fcb97-9313-4ef0-b679-4754a9c1a17a HTTP/1.1" 200 449
 "GET /api/playlist/?profile=6e9fcb97-9313-4ef0-b679-4754a9c1a17a HTTP/1.1" 200 449
 "GET /api/playlist/?profile=6e9fcb97-9313-4ef0-b679-4754a9c1a17a HTTP/1.1" 200 449
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+"GET / HTTP/1.1" 404 2313
+"GET / HTTP/1.1" 404 2313
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2364
+"GET /favicon.ico HTTP/1.1" 404 2364
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+- Broken pipe from ('127.0.0.1', 50340)
+- Broken pipe from ('127.0.0.1', 50340)
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"OPTIONS /api/custom_user/ HTTP/1.1" 200 0
+"OPTIONS /api/custom_user/ HTTP/1.1" 200 0
+"POST /api/custom_user/ HTTP/1.1" 201 252
+"POST /api/custom_user/ HTTP/1.1" 201 252
+"POST /api/auth/login/ HTTP/1.1" 200 842
+"POST /api/auth/login/ HTTP/1.1" 200 842
+"OPTIONS /api/restricted_user/ HTTP/1.1" 200 0
+"OPTIONS /api/restricted_user/ HTTP/1.1" 200 0
+"GET /api/restricted_user/ HTTP/1.1" 200 2
+"GET /api/restricted_user/ HTTP/1.1" 200 2
