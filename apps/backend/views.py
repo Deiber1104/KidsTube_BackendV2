@@ -5,14 +5,15 @@ from django_filters import rest_framework as filters
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from django.db.models import ProtectedError
 from django.views.decorators.csrf import csrf_exempt
-from .models import CustomUserModel, PlaylistModel, RestrictedUserModel, VideoModel
+from googleapiclient.discovery import build
 from rest_framework import permissions, status, viewsets
 from rest_framework.response import Response
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework.views import APIView
 
-from .models import PlaylistModel, RestrictedUserModel
-from .serializers import CustomUserSerializer, LoginSerializer, PlaylistSerializer, RestrictedUserSerializer, VideoSerializer
+from .models import CustomUserModel, PlaylistModel, RestrictedUserModel, VideoModel
+from .serializers import CustomUserSerializer, PlaylistSerializer, RestrictedUserSerializer, VideoSerializer
+
 
 """
 Endpoint API to manage Login
@@ -142,7 +143,6 @@ class PlaylistViewSet(viewsets.ModelViewSet):
             return Response({'message': 'Playlist not found.'}, status=status.HTTP_404_NOT_FOUND)
 
 
-
 """
 Endpoint API to manage Videos.
 """
@@ -161,3 +161,42 @@ class VideoViewSet(viewsets.ModelViewSet):
             return Response({'message': 'Video deleted successfully.'}, status=status.HTTP_204_NO_CONTENT)
         except VideoModel.DoesNotExist:
             return Response({'message': 'Video not found.'}, status=status.HTTP_404_NOT_FOUND)
+
+
+"""
+Endpoint API to search for Youtube videos.
+"""
+class YouTubeSearchView(APIView):
+    def get(self, request):
+        query = request.query_params.get('query')
+        if not query:
+            return Response({'error': 'Query parameter is required.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        # Replace with your actual API key from Google Console (https://console.cloud.google.com/)
+        api_key = 'AIzaSyASiFcSCfD1y0K-m-C-uJAwE6oP6EIDV9A'
+        youtube = build('youtube', 'v3', developerKey=api_key)
+
+        try:
+            search_response = youtube.search().list(
+                q=query,
+                part='snippet',
+                maxResults=15,
+                type='video'
+            ).execute()
+
+            items = search_response.get('items')
+            if not items:
+                return Response({'error': 'No videos found.'}, status=status.HTTP_404_NOT_FOUND)
+            print(items[0])
+            videos = [
+                {
+                    "id": item['id']['videoId'],
+                    "url": f"https://www.youtube.com/watch?v={item['id']['videoId']}",
+                    "title": item['snippet']['title']
+                } for item in items
+            ]
+            print(videos)
+            return Response(videos, status=status.HTTP_200_OK)
+
+        except Exception as e:
+            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

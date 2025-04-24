@@ -18106,3 +18106,188 @@ Watching for file changes with StatReloader
 "OPTIONS /api/restricted_user/ HTTP/1.1" 200 0
 "GET /api/restricted_user/ HTTP/1.1" 200 2
 "GET /api/restricted_user/ HTTP/1.1" 200 2
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+Bad Request: /api/auth/login/
+Bad Request: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"POST /api/auth/login/ HTTP/1.1" 400 68
+"OPTIONS /api/custom_user/ HTTP/1.1" 200 0
+"OPTIONS /api/custom_user/ HTTP/1.1" 200 0
+"POST /api/custom_user/ HTTP/1.1" 201 252
+"POST /api/custom_user/ HTTP/1.1" 201 252
+"POST /api/auth/login/ HTTP/1.1" 200 842
+"POST /api/auth/login/ HTTP/1.1" 200 842
+"OPTIONS /api/restricted_user/ HTTP/1.1" 200 0
+"OPTIONS /api/restricted_user/ HTTP/1.1" 200 0
+"GET /api/restricted_user/ HTTP/1.1" 200 2
+"GET /api/restricted_user/ HTTP/1.1" 200 2
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\urls.py changed, reloading.
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /api/
+Not Found: /api/
+"GET /api/ HTTP/1.1" 404 3719
+"GET /api/ HTTP/1.1" 404 3719
+Unauthorized: /api/youtube-search/
+Unauthorized: /api/youtube-search/
+"GET /api/youtube-search/ HTTP/1.1" 401 5126
+"GET /api/youtube-search/ HTTP/1.1" 401 5126
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Method Not Allowed: /api/login/
+Method Not Allowed: /api/login/
+"GET /api/login/ HTTP/1.1" 405 40
+"GET /api/login/ HTTP/1.1" 405 40
+Unauthorized: /api/login/
+Unauthorized: /api/login/
+"POST /api/login/ HTTP/1.1" 401 36
+"POST /api/login/ HTTP/1.1" 401 36
+"OPTIONS /api/custom_user/ HTTP/1.1" 200 0
+"OPTIONS /api/custom_user/ HTTP/1.1" 200 0
+"POST /api/custom_user/ HTTP/1.1" 201 241
+"POST /api/custom_user/ HTTP/1.1" 201 241
+Bad Request: /api/login/
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 40
+"POST /api/login/ HTTP/1.1" 400 40
+Unauthorized: /api/login/
+Unauthorized: /api/login/
+"POST /api/login/ HTTP/1.1" 401 36
+"POST /api/login/ HTTP/1.1" 401 36
+Unauthorized: /api/login/
+Unauthorized: /api/login/
+"POST /api/login/ HTTP/1.1" 401 36
+"POST /api/login/ HTTP/1.1" 401 36
+Unauthorized: /api/login/
+Unauthorized: /api/login/
+"POST /api/login/ HTTP/1.1" 401 36
+"POST /api/login/ HTTP/1.1" 401 36
+Bad Request: /api/login/
+Bad Request: /api/login/
+"POST /api/login/ HTTP/1.1" 400 40
+"POST /api/login/ HTTP/1.1" 400 40
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 831
+"POST /api/auth/login/ HTTP/1.1" 200 831
+"OPTIONS /api/restricted_user/ HTTP/1.1" 200 0
+"OPTIONS /api/restricted_user/ HTTP/1.1" 200 0
+"GET /api/restricted_user/ HTTP/1.1" 200 2
+"GET /api/restricted_user/ HTTP/1.1" 200 2
+Unauthorized: /api/auth/login/
+Unauthorized: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 401 183
+"POST /api/auth/login/ HTTP/1.1" 401 183
+Unauthorized: /api/auth/login/
+Unauthorized: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 401 183
+"POST /api/auth/login/ HTTP/1.1" 401 183
+Unauthorized: /api/auth/login/
+Unauthorized: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 401 183
+"POST /api/auth/login/ HTTP/1.1" 401 183
+"POST /api/auth/login/ HTTP/1.1" 200 831
+"POST /api/auth/login/ HTTP/1.1" 200 831
+Bad Request: /api/youtube-search/
+Bad Request: /api/youtube-search/
+"GET /api/youtube-search/ HTTP/1.1" 400 40
+"GET /api/youtube-search/ HTTP/1.1" 400 40
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=django+rest+framework HTTP/1.1" 200 59
+"GET /api/youtube-search/?query=django+rest+framework HTTP/1.1" 200 59
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 59
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 59
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica HTTP/1.1" 200 59
+"GET /api/youtube-search/?query=musica HTTP/1.1" 200 59
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica HTTP/1.1" 200 74
+"GET /api/youtube-search/?query=musica HTTP/1.1" 200 74
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 74
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 74
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 74
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 74
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 74
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 74
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 137
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 137
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 1342
+"GET /api/youtube-search/?query=musica%20urbana HTTP/1.1" 200 1342
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica%20cristiana HTTP/1.1" 200 1477
+"GET /api/youtube-search/?query=musica%20cristiana HTTP/1.1" 200 1477
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica%20cristiana HTTP/1.1" 200 2282
+"GET /api/youtube-search/?query=musica%20cristiana HTTP/1.1" 200 2282
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+C:\Users\deibe\OneDrive\Documentos\I Cuatrimestre -2025\Ambiente Web ll\KidsTube_BackendV2\apps\backend\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica%20cristiana HTTP/1.1" 200 2342
+"GET /api/youtube-search/?query=musica%20cristiana HTTP/1.1" 200 2342
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+file_cache is only supported with oauth2client<4.0.0
+"GET /api/youtube-search/?query=musica%20cristiana HTTP/1.1" 200 2342
+"GET /api/youtube-search/?query=musica%20cristiana HTTP/1.1" 200 2342

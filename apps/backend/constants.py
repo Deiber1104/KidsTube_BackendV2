@@ -1,2 +1,2 @@
 # Role choices
-ROLE_CHOICES = (("Pendiente", "Pendiente"), ("Activo", "Activo"))
+ROLE_CHOICES = (("Pending", "Pending"), ("Active", "Active"))

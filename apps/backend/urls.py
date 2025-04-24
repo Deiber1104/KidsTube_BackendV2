@@ -23,4 +23,5 @@ urlpatterns = [
     path('restricted_user/', include(restricted_user_router.urls)),
     path('playlist/', include(playlist_router.urls)),
     path('video/', include(video_router.urls)),
+    path('youtube-search/', views.YouTubeSearchView.as_view(), name='youtube-search'),
 ]
