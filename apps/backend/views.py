@@ -24,6 +24,8 @@ class LoginViewSet(TokenObtainPairView):
     def post(self, request, *args, **kwargs):
         email = request.data.get("email")
         password = request.data.get("password")
+        print(email)
+        print("---------------------------------------")
 
         # Intentar obtener al usuario con el email
         try:
@@ -31,26 +33,26 @@ class LoginViewSet(TokenObtainPairView):
         except CustomUserModel.DoesNotExist:
             return Response({"error": "Wrong email or password."}, status=status.HTTP_401_UNAUTHORIZED)
 
-        # Verificación de la contraseña
+        print(user.role)  # ✅ Ahora sí se puede imprimir
+        print("------------------------")
+        print(user.role == "Pending")
+
         if not user.check_password(password):
             return Response({"error": "Wrong email or password."}, status=status.HTTP_401_UNAUTHORIZED)
 
-        # Verificación de si el usuario está activo
         if not user.is_active:
             return Response({"error": "The user is not active"}, status=status.HTTP_401_UNAUTHORIZED)
 
-        # Obtener el token JWT (el token de acceso y el de refresco)
+        if user.role == "Pending":
+            return Response({"error": "Your account is pending approval."}, status=status.HTTP_403_FORBIDDEN)
+
         response = super().post(request, *args, **kwargs)
 
-        # Agregar el user_id al token antes de enviarlo
-        response.data["user_id"] = user.user_id  # Agregar el user_id personalizado al token
+        response.data["user_id"] = user.user_id
+        response.data["user"] = CustomUserSerializer(user).data
 
-        # Agregar información adicional del usuario al token
-        user_data = CustomUserSerializer(user).data
-        response.data["user"] = user_data
-        
         return response
-    
+
 
 """
 Endpoint API to manage Users.
@@ -180,22 +182,23 @@ class YouTubeSearchView(APIView):
             search_response = youtube.search().list(
                 q=query,
                 part='snippet',
-                maxResults=15,
+                maxResults=8,
                 type='video'
             ).execute()
 
             items = search_response.get('items')
             if not items:
                 return Response({'error': 'No videos found.'}, status=status.HTTP_404_NOT_FOUND)
-            print(items[0])
+            # print(items[0])
             videos = [
                 {
                     "id": item['id']['videoId'],
                     "url": f"https://www.youtube.com/watch?v={item['id']['videoId']}",
-                    "title": item['snippet']['title']
+                    "title": item['snippet']['title'],
+                    "description": item['snippet'].get('description', 'No description available')
                 } for item in items
             ]
-            print(videos)
+            # print(videos)
             return Response(videos, status=status.HTTP_200_OK)
 
         except Exception as e:

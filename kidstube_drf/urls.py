@@ -15,9 +15,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path, include
-
+from apps.backend.views import LoginViewSet
 
 urlpatterns = [
+    path('api/auth/login/', LoginViewSet.as_view(), name='custom-login'),
     # dj-ret-auth urls
     path('api/auth/', include('dj_rest_auth.urls')),       # Endpoints provided by dj-rest-auth
     # Our own app's urls

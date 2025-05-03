@@ -10,8 +10,8 @@ class LoginSerializer(serializers.Serializer):
     email = serializers.EmailField()
     password = serializers.CharField(write_only=True)
 
-    # Verificar que el role sea
     """
+    # Verificar que el role
     def validate(self, data):
         email = data.get('email')
 
@@ -20,11 +20,11 @@ class LoginSerializer(serializers.Serializer):
         except CustomUserModel.DoesNotExist:
             raise serializers.ValidationError("User not found.")
 
-        if user.role != 'Active':
+        if user.role == 'Pending':
             raise serializers.ValidationError("Your account is not verified yet.")
 
         return data
-    """ 
+    """
 
 """
 Serializer to manage User
